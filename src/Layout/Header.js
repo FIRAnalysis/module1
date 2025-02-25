@@ -19,8 +19,10 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <NavLink className="navbar-brand">FIR ANALYSIS</NavLink>
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <NavLink className="navbar-brand text-center w-100">
+              FIR ANALYSIS
+            </NavLink>
+            {/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink to="/home" className="nav-link " aria-current="page">
                   About
@@ -46,7 +48,7 @@ const Header = () => {
                   Register/Login
                 </NavLink>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>
